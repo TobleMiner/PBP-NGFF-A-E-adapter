@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name amphenol-m.2)(type KiCad)(uri ${KIPRJMOD}/amphenol-m.2.pretty)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+  (lib (name Connector_FFC_Molex)(type KiCad)(uri ${KIPRJMOD}/Connector_FFC_Molex.pretty)(options "")(descr ""))
+  (lib (name Connector_FFC_Hirose)(type KiCad)(uri ${KIPRJMOD}/Connector_FFC_Hirose.pretty)(options "")(descr ""))
+  (lib (name Package_Texas)(type KiCad)(uri ${KIPRJMOD}/Package_Texas.pretty)(options "")(descr ""))
+  (lib (name PinebookPro-M2-A+E-adapter)(type KiCad)(uri /home/tsys/work/pcb/PinebookPro-M2-A+E-adapter)(options "")(descr ""))
+)

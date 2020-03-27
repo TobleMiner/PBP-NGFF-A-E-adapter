@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name M.2-NGFF)(type Legacy)(uri ${KIPRJMOD}/lib/M.2-NGFF.lib)(options "")(descr ""))
+  (lib (name tps63031)(type Legacy)(uri ${KIPRJMOD}/lib/tps63031.lib)(options "")(descr ""))
+)
