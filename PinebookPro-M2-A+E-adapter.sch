@@ -853,10 +853,10 @@ Wire Wire Line
 Wire Wire Line
 	9750 2800 10650 2800
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5E9361E1
 P 7150 5950
-F 0 "H?" H 7250 5999 50  0000 L CNN
+F 0 "H1" H 7250 5999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7250 5908 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 7150 5950 50  0001 C CNN
 F 3 "~" H 7150 5950 50  0001 C CNN
@@ -864,10 +864,10 @@ F 3 "~" H 7150 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 5E936A35
 P 7150 6100
-F 0 "#PWR?" H 7150 5850 50  0001 C CNN
+F 0 "#PWR0114" H 7150 5850 50  0001 C CNN
 F 1 "GND" H 7155 5927 50  0000 C CNN
 F 2 "" H 7150 6100 50  0001 C CNN
 F 3 "" H 7150 6100 50  0001 C CNN
@@ -876,4 +876,46 @@ F 3 "" H 7150 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 6100 7150 6050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E98CF72
+P 10650 5350
+F 0 "TP?" H 10708 5468 50  0000 L CNN
+F 1 "TestPoint" V 10700 5050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10850 5350 50  0001 C CNN
+F 3 "~" H 10850 5350 50  0001 C CNN
+	1    10650 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 5350 10200 5350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9933E4
+P 10650 5600
+F 0 "TP?" H 10708 5718 50  0000 L CNN
+F 1 "TestPoint" V 10700 5300 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10850 5600 50  0001 C CNN
+F 3 "~" H 10850 5600 50  0001 C CNN
+	1    10650 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 5600 10200 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5E999AB5
+P 10200 5850
+F 0 "#PWR?" H 10200 5600 50  0001 C CNN
+F 1 "GND" H 10205 5677 50  0000 C CNN
+F 2 "" H 10200 5850 50  0001 C CNN
+F 3 "" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5850 10200 5600
+Connection ~ 10200 5600
+Wire Wire Line
+	10200 5600 10200 5350
 $EndSCHEMATC
