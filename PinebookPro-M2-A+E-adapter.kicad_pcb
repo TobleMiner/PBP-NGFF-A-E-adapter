@@ -5,7 +5,7 @@
     (drawings 24)
     (tracks 530)
     (zones 0)
-    (modules 33)
+    (modules 34)
     (nets 68)
   )
 
@@ -240,6 +240,22 @@
     (add_net "Net-(L1-Pad1)")
     (add_net "Net-(L1-Pad2)")
     (add_net "Net-(R1-Pad2)")
+  )
+
+  (module PinebookPro-M2-A+E-adapter:manjaro (layer F.Cu) (tedit 0) (tstamp 5E7F40B3)
+    (at 191.5 116)
+    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
+    )
+    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
+    )
+    (fp_poly (pts (xy 3.824941 3.824941) (xy 1.673411 3.824941) (xy 1.673411 -3.824941) (xy 3.824941 -3.824941)
+      (xy 3.824941 3.824941)) (layer F.SilkS) (width 0.01))
+    (fp_poly (pts (xy 1.075764 3.824941) (xy -1.075765 3.824941) (xy -1.075765 -1.075765) (xy 1.075764 -1.075765)
+      (xy 1.075764 3.824941)) (layer F.SilkS) (width 0.01))
+    (fp_poly (pts (xy 1.075764 -1.673412) (xy -1.673412 -1.673412) (xy -1.673412 3.824941) (xy -3.824941 3.824941)
+      (xy -3.824941 -3.824941) (xy 1.075764 -3.824941) (xy 1.075764 -1.673412)) (layer F.SilkS) (width 0.01))
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E7F3A5C)
@@ -1128,6 +1144,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/lib/DRC0010J.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MountingHole:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5E7E82E0)
@@ -1170,6 +1191,7 @@
   (module Connector_FFC_Hirose:Hirose_FH26-35S-0.3SH_2x35-1MP_P0.30mm_Horizontal (layer F.Cu) (tedit 5E7E549D) (tstamp 5E7E6261)
     (at 176.3 112.95 90)
     (path /5E7C7FC5)
+    (attr smd)
     (fp_text reference J1 (at 0 -2.9 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1285,6 +1307,11 @@
       (net 1 GND))
     (pad 1 smd rect (at -5.1 1.4 90) (size 0.3 0.8) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/lib/ayf333535-closed.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module MountingHole:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5E77F19C)
@@ -1726,6 +1753,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/lib/Coilcraft-XAL4020.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 5C745284) (tstamp 5E77FFC6)
@@ -1932,6 +1964,16 @@
       (net 1 GND))
     (pad "" np_thru_hole circle (at -10 0 270) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 10 0 270) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/lib/c-2199230-3-b2-3d.stp
+      (offset (xyz 0 -2.5 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model ${KIPRJMOD}/lib/wifi-card-model.step
+      (offset (xyz 0 2 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -180))
+    )
   )
 
   (module Fuse:Fuse_0805_2012Metric (layer F.Cu) (tedit 5B36C52C) (tstamp 5E77FF59)
