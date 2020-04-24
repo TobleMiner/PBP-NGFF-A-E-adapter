@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name minipcie)(type KiCad)(uri ${KIPRJMOD}/mpcie.pretty)(options "")(descr "Mini PCI Express"))
-)
