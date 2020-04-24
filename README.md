@@ -40,3 +40,4 @@ The PCB should be manufactured as a **1.0mm thick** FR4 board.
 | ----- |:-------:|:-------------:| -----:|
 | J1 | FFC conn. | Hirose FH26W-35S-0.3SHW | [Datasheet](https://www.mouser.de/datasheet/2/185/FH26_CL0580-2410-2-60_2d-1614872.pdf) \| [Mouser](https://www.mouser.de/ProductDetail/hirose-electric/fh26w-35s-03shw60/?qs=vcbW%252b4%252bSTIqfjIQXayKHZQ==&countrycode=DE&currencycode=EUR) |
 | J2 | M.2 E-key | Amphenol MDT275E02001 | [Datasheet](https://www.mouser.de/datasheet/2/18/Amphenol_CMDTXXXXXX001-4-1157232.pdf) \| [Mouser](https://www.mouser.de/ProductDetail/fci-amphenol/mdt275e02001/?qs=lrCDz5EUXIYT3rGac7uMeg==&countrycode=DE&currencycode=EUR)  |
+| - | Dual-band MHF4 antenna | Laird EMN2449R1S-8MHF4 | [Mouser](https://www.mouser.de/ProductDetail/laird-connectivity/emn2449r1s-8mhf4/?qs=EU6FO9ffTwfxyryKAvXAaQ==&countrycode=DE&currencycode=EUR)
